@@ -1,0 +1,210 @@
+.navbar{
+   background-color: black;
+   color: white;
+   width: 90rem;
+  position: fixed;
+   display: flex;
+   margin-top: 0;
+   top: 0;
+   cursor: pointer;
+   justify-content: space-around;
+ }
+ .navbar .list ul{
+     align-items: right;
+     justify-content: right;
+     margin-left: 20rem;
+ }
+ .navbar .list ul li{
+     list-style: none;
+     display: inline;
+     padding: 10px;  
+     font-weight: 300;
+ }
+ .navbar .icon{
+     align-items: left;
+     justify-content: left;
+ }
+ .navbar .icon img{
+     height: 4rem;
+     width: 15rem;
+     position: fixed;
+     margin: 0;
+     padding: 0;
+ }
+  /* body css */
+  .first{
+     margin-top: 3.5rem;
+  }
+  .first img{
+     width:100vw;
+     height: 75vh;
+     margin: 0;
+  }
+  .text{
+     display: flex;
+     margin-left:10%;
+     margin-right: 10%;
+  }
+  .text .para{
+     width: 40rem;
+     font-size: 14px; 
+  }
+  .purple{
+     background-color: rgba(156,33,87,255);
+     color: white;
+     font-size: 14px;
+  }
+  .purple .text{
+     width: 63rem;
+     font-size: 16px;
+  }
+ 
+ 
+   /*  cards css */
+     .cards{
+       display: flex;
+       margin-left: 10%;
+       margin-right: 10%;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+    }
+    .cards .c1:hover , .c2:hover , .c3:hover , .c4:hover, .c5:hover {
+       transform: scale(0.9, 0.9);
+       box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.075), 
+         -5px -5px 30px 15px rgba(0,0,0,0.22);
+     }
+     .cards .c1,.c2,.c3,.c4,.c5{
+        height: 15rem;
+        width:  12rem;
+        border-radius: 25px;
+        border: 1px solid grey;
+     }
+    .card h2{
+       margin-top: 0;
+       margin-left: 20%;
+       margin-right: 10%; 
+       font-family: Arial, Helvetica, sans-serif; 
+       font-weight: 400;
+    }
+    
+    .card  .head h4{
+       background-color: rgb(197, 187, 187);
+       width: 35px;
+       height: 35px;
+       border-radius: 50%;
+       box-shadow: black;
+       z-index: -1;
+       text-align: center;
+       margin-left: 40%;
+       margin-right: 50%;
+    }
+ 
+    .card .head{
+      background-color: darkblue;
+       border-radius: 25px;
+    } 
+ 
+ /* form css */
+    .contact{
+      display: flex;
+      margin: 5% 15% 5%;
+      border: 2px solid grey;
+      height: 48vh;
+      width: 60vw;
+   }
+   .contact .left{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 20vw;
+      margin-top: 7%;
+   }
+  .contact .right{
+     width: 40vw;
+  }
+  .contact .right form{
+       border-left: 2px solid ;
+       justify-content: right;
+       align-items: right;
+       width: 60vw;
+       max-width: 500px;
+       min-width: 300px;
+       margin: 0 auto;
+       padding-bottom: 2em;
+  }
+  .contact .right label{
+   display: block;
+   margin: 0.35rem 0;
+   margin-left: 1.5%;
+ }
+ .contact input,button{
+    min-height: 2em;
+    width: 95%;
+    margin-top: 0.30rem;
+    margin-left: 1.5%;
+    border-radius: 10px;
+    border-color: rgb(139, 139, 139);
+ }
+ .contact button{
+    margin-top: 4%;
+    background-color: rgb(11, 11, 58);
+    color: white;
+    font-weight: 500;
+ } 
+ 
+  /* footer  */
+  .foot {
+     padding-top: 0.75%;
+     height: 5vh;
+     font-size: 12px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(197, 193, 193);
+  }
+  .about{
+     opacity: 0.8;
+     display: flex;
+     background-color: rgb(228, 227, 227);
+     color: grey;
+     font-size: 0.75rem;
+  }
+   .about .p1 .para{
+    width: 33vw;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .about .list , .learn , .address{
+     display: block;
+  }
+  .about .list ul li{
+     list-style: none;
+  }
+  .about .list{
+     margin-right: 35px;
+  }
+  .about .address{
+     width: 30vw;
+     display: list-item;
+     margin-left: 10%;
+  }
+  .about .address .ic{
+     color: blue;
+     font-size: 16px;
+  }
+  li{
+     list-style: none;
+  }
+  .list a{
+     text-decoration: none;
+     color: white;
+  }
+  .card{
+     background-color: rgba(232,234,233,255);
+       top: 0;
+       margin: 0;
+       padding: 0;
+  }
+  .card h2,img{
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
